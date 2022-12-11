@@ -9,17 +9,6 @@ pathHere = os.getcwd()
 print(pathHere)
 
 def B2J(txtFile):
-    
-    # F= filedialog.askopenfilename()
-    # if F  == None:
-    #     return
-    # file_path = filedialog.askdirectory()
-    # if file_path  == None:
-    #     return 
-    # with open("D:/arkinght/autoupdata/activity_table.txt", "r") as f:
-    # print(file_path)
-    # return 
-    
     for f in txtFile:
         if "display_meta_table.txt" in f:
             continue
@@ -42,9 +31,6 @@ def B2J(txtFile):
     print("完成")
     lable_str.set('OK!')
     return
-
-    
-    # f = open("D:/arkinght/autoupdata/activity_table.txt", "r")
 
 
 def FileOpen():
