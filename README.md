@@ -1,6 +1,7 @@
 # BSON_To_JSON UGUI版本
 BSON_To_JSON
 # 作用
+自我學習用  
 遍歷檔案夾下所有txt檔案 把檔案夾內副檔名為txt的BSON檔案轉換成JSON檔案  
 注意 BSON檔案副檔名需更改名為 .txt  
 # 使用方式
