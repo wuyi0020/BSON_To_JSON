@@ -24,7 +24,7 @@ def B2J(txtFile):
             output_file.close()
         except:
             print(f)
-    txt = open(pathHere+'\\txt.txt','w',encoding='utf-8') 
+    txt = open(pathHere+'\\walkResult.txt','w',encoding='utf-8') 
     for f in range(len(txtFile)):
         print(f'{txtFile[f]}',file=txt)
     txt.close()
